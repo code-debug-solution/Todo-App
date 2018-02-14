@@ -42,5 +42,4 @@ testem.log
 Thumbs.db
 README.md
 package-lock.json
-environment.prod.ts
 environment.ts
