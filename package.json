@@ -17,6 +17,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular/compiler-cli": "^4.2.4",
     "@angular-redux/store": "^6.5.7",
     "@angular/animations": "^4.2.4",
     "@angular/cli": "1.4.1",
