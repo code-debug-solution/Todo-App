@@ -1,0 +1,55 @@
+/* CSS & Remaining Bits(login.component.css)
+
+.lock {
+  width: 50%;
+  margin: -1.7em auto -4em auto;
+  display: block;
+}
+
+#github {
+  border: 1px solid rgb(223, 213, 213);
+  background: rgb(46, 55, 73) url('../../assets/images/icons/github.png') no-repeat 25px;
+  background-size: 47px;
+  color: #fff;
+}
+
+#fb {
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(49, 104, 221) url('../../assets/images/icons/facebook.png') no-repeat 25px;
+  background-size: 47px;
+  color: #fff;
+}
+
+#google {
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(160, 77, 9) url('../../assets/images/icons/googleplus_64px.png') no-repeat 25px;
+  background-size: 25px;
+  color: #fff;
+}
+
+#email {
+  border: 1px solid #FF0000;
+  background: #ECECEC url('../../assets/images/icons/envelope_64px.png') no-repeat 25px;
+  background-size: 25px;
+  color: rgb(5, 131, 235);
+}
+
+@media (max-width: 600px) {
+  #page {
+    padding: 1em;
+  }
+  #toolbar {
+    width: 90%;
+    margin-left: -45%;
+  }
+  #github {
+    background: #fff;
+  }
+  #google {
+    background: #fff;
+  }
+  #email {
+    background: #ECECEC;
+  }
+}
+ */

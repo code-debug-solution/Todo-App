@@ -1,0 +1,39 @@
+<!-- <div class="limiter"> -->
+    <!-- <div class="container-login100" style="background-image: url('./assets/images/bkg2.jpg');">
+      <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54"> -->
+        <form class="login100-form validate-form" #formData='ngForm' (ngSubmit)="onSubmit(formData)">
+            <!-- <a routerLink="/login" id="goback">Go back</a> -->
+          <!-- <span class="login100-form-title p-b-49">
+            Custom Login
+          </span> -->
+          
+          <div class="text-center mb-4">
+            <!-- <img class="mb-4" src="assets/imgs/security1.png" alt="" width="72" height="72"> -->
+            <span class="error" *ngIf="error" [@fallIn]='state'> {{ error }} </span>     
+          </div>
+  
+          <div class="wrap-input100 validate-input m-b-23" data-validate = "User Email is reauired">
+            <span class="label-input100">User Email</span>
+            <input class="input100" type="text" (ngModel)="email" name="email" placeholder="Type your email" required autofocus>
+            <span class="focus-input100" data-symbol="&#xf206;"></span>
+          </div>
+
+          <div class="wrap-input100 validate-input" data-validate="Password is required">
+            <span class="label-input100">Password</span>
+            <input class="input100" type="password" (ngModel)="password" name="password" placeholder="Type your password" reauired>
+            <span class="focus-input100" data-symbol="&#xf190;"></span>
+          </div><br>
+
+          <div class="container-login100-form-btn">
+            <div class="wrap-login100-form-btn">
+            <div class="login100-form-bgbtn"></div>
+              <button type="submit" class="login100-form-btn" [disabled]="!formData.valid">
+                Login
+              </button>
+            </div>
+          </div>
+        </form>
+      <!-- </div> -->
+    <!-- </div> -->
+  <!-- </div> -->
+  
